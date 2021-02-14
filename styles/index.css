@@ -206,10 +206,7 @@
   color: rgba(0, 0, 0, 0.637);
   line-height: 1.5;
   max-width: 470px;
-}
-
-.vr__description {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 @media only screen and (max-width: 1200px) {
