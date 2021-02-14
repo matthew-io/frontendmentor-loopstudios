@@ -18,27 +18,68 @@
   <!-- HERO -->
   <header class="hero">
     <!-- NAV -->
-    <nav class="nav__container">
-      <img src="./images/logo.svg" />
-      <img src="./images/icon-hamburger.svg" class="nav__icon" />
-      <div class="nav__links">
-        <h1 class="underline">About</h1>
-        <h1 class="underline">Careers</h1>
-        <h1 class="underline">Events</h1>
-        <h1 class="underline">Products</h1>
-        <h1 class="underline">Support</h1>
+    <div class="nav__menu hidden" id="navMenu">
+      <div class="nav__container">
+        <img src="./images/icon-close.svg" class="nav__icon" id="navClose"/>
+        <div class="menu__links">
+          <h1 class="menu__underline">About</h1>
+          <h1 class="menu__underline">Careers</h1>
+          <h1 class="menu__underline">Events</h1>
+          <h1 class="menu__underline">Products</h1>
+          <h1 class="menu__underline">Support</h1>
+       </div>
       </div>
-      <div class="hero__heading">
+      </div>
+      
+      <nav class="nav__container">
+        <div id="hideThese">
+          <img src="./images/icon-hamburger.svg" class="nav__icon" id="navIcon"/>
+          <img src="./images/logo.svg" />
+        <div class="nav__links">
+          <h1 class="underline">About</h1>
+          <h1 class="underline">Careers</h1>
+          <h1 class="underline">Events</h1>
+          <h1 class="underline">Products</h1>
+          <h1 class="underline">Support</h1>
+        </div>
+        <div class="hero__heading">
         IMMERSIVE<br />
         EXPERIENCES<br />
         THAT DELIVER
-      </div>
+        </div>
+        </div>
+      
     </nav>
   </header>
 
-  <!-- OUR CREATIONS -->
+  
+  
+  <body>
 
-  <section class="features">
+    <!-- INFO -->
+    <section class="info">
+      <div class="vr__section">
+        <div>
+          <img src="images/desktop/image-interactive.jpg" alt="">
+        </div>
+        <div class="vr__descriptionContainer">
+          <div class="vr__title">THE LEADER IN INTERACTIVE VR</div>
+          <div class="vr__description">
+            <span>
+              Founded in 2011, Loopstudios has been producing world-class virtual reality 
+              projects for some of the best companies around the globe. Our award-winning 
+              creations have transformed businesses through digital experiences that bind 
+              to their brand.
+            </span>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR CREATIONS -->
+
+    <section class="features">
     <div class="features__header">
       <h1 class="features__heading">our creations</h1>
       <button type="submit" class="features__btn">view all</button>
@@ -51,27 +92,27 @@
       </div>
       <div class="features__column" id="item2">
         <div class="features__container">
-          <h1 class="features__title">From up above vr</h1>
+          <h1 class="features__title">From up<br /> above vr</h1>
         </div>
       </div>
       <div class="features__column" id="item3">
         <div class="features__container">
-          <h1 class="features__title">night arcade</h1>
+          <h1 class="features__title">night<br /> arcade</h1>
         </div>
       </div>
       <div class="features__column" id="item4">
         <div class="features__container">
-          <h1 class="features__title">pocket borealis</h1>
+          <h1 class="features__title">pocket<br /> borealis</h1>
         </div>
       </div>
       <div class="features__column" id="item5">
         <div class="features__container">
-          <h1 class="features__title">soccer team vr</h1>
+          <h1 class="features__title">soccer<br/> team vr</h1>
         </div>
       </div>
       <div class="features__column" id="item6">
         <div class="features__container">
-          <h1 class="features__title">the curiosity</h1>
+          <h1 class="features__title">the<br /> curiosity</h1>
         </div>
       </div>
       <div class="features__column" id="item7">
@@ -84,13 +125,42 @@
       </div>
       <div class="features__column" id="item8">
         <div class="features__container">
-          <h1 class="features__title">make it fisheye</h1>
+          <h1 class="features__title">make it<br /> fisheye</h1>
         </div>
       </div>
+      
     </div>
+    <button type="submit" class="features__btnMobile">view all</button>
   </section>
+</body>
 
-  <body>
+<!-- FOOTER -->
+
+<section class="footer">
+  <div>
+    <img src="./images/logo.svg" class="footer__logo" />
+    <div class="footer__links">
+      <p>About</p>
+      <p>Careers</p>
+      <p>Events</p>
+      <p>Products</p>
+      <p>Support</p>
+    </div>
+  </div>
+  <div class="footer__right">
+    <div class="footer__social">
+      <img src="./images/icon-facebook.svg" />
+      <img src="./images/icon-twitter.svg" />
+      <img src="./images/icon-pinterest.svg" />
+      <img src="./images/icon-instagram.svg" />
+    </div>
+    <div class="footer__description">
+      <p>© 2021 Loopstudios. All rights reserved.</p>
+    </div>
+  </div>
+</section> 
+   
+
     <!-- About
   Careers
   Events
@@ -126,5 +196,7 @@
   Support
 
   © 2021 Loopstudios. All rights reserved. -->
-  </body>
+
+  <script src="./js/index.js"></script>
+
 </html>
